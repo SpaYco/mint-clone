@@ -6,10 +6,10 @@
   line-height: 150%;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 body {
@@ -71,11 +71,13 @@ main {
   align-items: center;
   flex-direction: column;
 }
+
 form {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 button {
   background-color: #0077c5;
   border: 1px solid #0077c5;
@@ -87,35 +89,43 @@ button {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-input{
+
+input {
   height: 35px;
   width: 100%;
-  border: solid 1px hsla(230,7%,84%,1);
+  border: solid 1px hsla(230, 7%, 84%, 1);
 }
-input:active, input:focus {
-  box-shadow: 0px 0px 5px #0077c5;
-  border: solid 1px hsla(230,7%,84%,1);
+
+input:active,
+input:focus {
+  box-shadow: 0 0 5px #0077c5;
+  border: solid 1px hsla(230, 7%, 84%, 1);
   outline-width: 0;
 }
+
 #create {
   font-size: 25px;
   margin: 25px;
   font-weight: 500;
 }
+
 #tip {
-    font-size: 14px;
+  font-size: 14px;
 }
+
 .title {
   margin-top: 25px;
   font-size: 14px;
   font-weight: 300;
 }
+
 #tos {
   font-size: 12px;
   font-style: italic;
   text-align: center;
   margin: 25px 40px 25px 40px;
 }
+
 #captcha {
   width: 100%;
   padding: 25px 0 25px 0;
@@ -123,6 +133,7 @@ input:active, input:focus {
   font-size: 10px;
   text-align: center;
 }
+
 #legal {
   color: #505050;
   font-size: 12px;
@@ -132,13 +143,16 @@ input:active, input:focus {
   align-items: center;
   text-align: center;
 }
-#legalLinks > a{
-  color: #505050; 
+
+#legalLinks > a {
+  color: #505050;
   padding: 5px;
 }
+
 #legalLinks {
   margin: 5px;
 }
+
 #legal > p {
   margin-bottom: 25px;
 }
